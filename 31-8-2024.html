@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+</head>
+<body style="background-image: url(./images/ramos.img); background-repeat: no-repeat; background-size: cover;background-attachment: fixed;">
+    <h1>local image</h1>
+    <p><img src="./images/indian flag.img" alt="indian image" width="200"> </p>
+    <h2>png image</h2>
+    <p><img src="./images/bitcoin img.png" alt="bitcoin image" width="300"></p>
+    <h2>jpeg image</h2>
+    <p><img src="./images/cameraman.img" alt="cameraman image" width="300"></p>
+    <h2>svg image</h2>
+    <p><img src="./images/google image.svg" alt="google image" width="300"></p>
+    <h2>gif images</h2>
+    <p><img src="./images/whistle.img" alt="whistling cat" width="300"></p>
+
+<!--  -->
+    <picture>
+        <source media="(min-width: 650px)" srcset="food">
+        <source media="(min-width: 465px)" srcset="img_car.jpg">
+        <img src="img_girl.jpg">
+      </picture>
+</body>
+</html>
